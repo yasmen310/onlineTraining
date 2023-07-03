@@ -1,0 +1,299 @@
+*{
+    padding: 0px;
+    margin: 0px;;
+}
+.headClass{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#080808;
+    height:70px;
+    position: fixed;
+    width:100%;
+    z-index: 999999;
+}
+.btn1,.btn2{
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: yellow;
+    font-size: large;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    padding: 13px;
+    margin-left:200px;
+    
+}
+.btn2 {
+    /* background-color:#2E1A47; */
+    background-color: #0a090a;
+    font-size: large;
+    border-color: yellow;
+    border-style:double;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color:yellow;
+}
+.btn2:hover{
+    background-color:rgb(97, 78, 32);
+}
+.navClass{
+    margin-left: 250px;
+}
+.navClass a{
+      color: whitesmoke;
+      margin-left: 10px;
+      text-decoration: none;
+      font-size: larger;
+}
+
+.navClass a:hover {
+    color: rgb(224, 184, 82);
+}
+h3{
+    color: bisque;
+    font-size: xx-large;
+    font-size: initial;
+    text-shadow: 1px 1px 1px burlywood;
+}
+.start i{
+    color: blanchedalmond;
+}
+i{
+    color: rgb(175, 175, 185);
+    font-size: 25px;
+}
+.imageClass{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(photo/images\ \(25\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.imageClass h3,h2,h1{
+    font-size: xxx-large;
+    color: bisque;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+h1{
+    margin-bottom: 30px;
+}
+.imageClass p{
+        font-size: x-large;
+        font-weight: bolder;
+        color: white;
+        margin-left: 50px;
+}
+.btn3{
+        background-color: yellow;
+        font-size: large;
+        border: 2px solid yellow;
+        border-radius: 20px;
+        padding: 13px;
+        margin-left: 50px;
+        margin-top: 30px;
+        cursor: pointer;
+}
+.sec2{
+    background-color: darkslategray;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec2 p{
+    color: antiquewhite;
+    margin-top: 20px;
+    
+}
+.sec2 a{
+   color: antiquewhite;
+   display: inline-block;
+    margin-top: 30px;
+}
+
+.sec2 img{
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    border: 5px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  
+}
+.sec3{
+    display: flex;
+    margin-top: -10px;
+}
+.sec3 .f1{
+    width:50%;
+    background-color: #0a090a;
+     color: bisque;
+     padding-left: 50px;
+     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sec3 .f2{
+        width: 50%;
+        background-color:#A2AD9C;
+        color: bisque;
+        /* text-align: center; */
+        padding-left: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+.sec3 h3{
+    font-size: xxx-large;
+}
+.sec3  p{
+    margin-top: 30px;
+    font-size: xx-large;
+}
+.sec3  a{
+    color: bisque;
+    display: inline-block;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.sec4 h2{
+    text-align: center;
+    color: #0a090a;
+    padding-top: 70px;
+    
+}
+.sec4 .all{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 30px;
+    
+    
+
+}
+.all h3{
+    color:bisque;
+    font-size: xx-large;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.all h4{
+    color:bisque;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-bottom: 1px white dashed;
+    width:230px;
+
+}
+.all p{
+    color: beige;
+    font-size: large;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.all button {
+     background-color: #0a090a;
+     font-size: large;
+     border-color: rgb(241, 173, 1);
+     border-style: double;
+     border-radius: 20px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 11px;
+     padding-bottom: 11px;
+     color: rgb(236, 169, 0);
+     margin-left: 320px;
+    
+}
+    
+.btn2:hover {
+   background-color: rgb(97, 78, 32);
+}
+
+.sec4 .all .all1{
+    width:40%;
+    background-color: rgb(12, 11, 11);
+    margin-left: 100px;
+    padding-bottom: 15px;
+}
+.sec4 .all .all2{
+    width:40%;
+    background-color: #E8F1D4;
+    padding-bottom: 15px;
+}
+.sec4 .all .all2 h3{
+    color: black;
+}
+.sec5{
+    display:flex;
+
+}
+.sec5 .right{
+    width:50%;
+    padding-left: 40px;
+    
+
+}
+.sec5 .right h2{
+    color:#0a090a;
+    font-size: xx-large;
+    padding-top: 30px;
+    
+    
+}
+.sec5 .right p{
+    color: #0a090a;
+    font-size: x-large;
+    color:#6e6b4b;
+    padding-left: 40px;
+    margin-top: 20px;
+  
+}
+.sec5 .right a{
+    color: rgb(12, 12, 11);
+    font-size: x-large;
+    padding-left: 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.sec5 .left h3{
+    margin-top: 20px;
+    color: #0a090a;
+    font-size: xx-large;
+}
+.sec5 .left p{
+    color:#0a090a;
+    font-size: x-large;
+}
+/* https: //cssgradient.io/     ->color */
+#content{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 70px;
+    background-color: #0a090a;  
+    width: 150px;
+}
+#content h3{
+font-size:larger;
+color: white ;
+}
+.sec6{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("photo/images (40).jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    
+}
+.sec6 h2{
+    margin-top: 200px;
+}
+.sec6 p{
+    color: beige;
+}
